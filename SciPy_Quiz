@@ -1,0 +1,165 @@
+Question 1:
+What is a correct syntax to return the mathematical number PI from the constants module, if the module is imported like this:
+
+from scipy import constants
+
+constants.pi    Your answer  
+constants.pi_int
+PI
+Question 2:
+What is a correct syntax to a list of all units under the constants module, if the module is imported like this:
+
+from scipy import constants
+
+dir(constants)    Your answer  
+constants
+constants.list
+Question 3:
+What is a correct syntax to return the speed of sound (in meters per seconds), if the module is imported like this:
+
+from scipy import constants
+
+constants.speed_of_sound    Your answer  
+constants.kmh
+constants.mph
+Question 4:
+True or False: Optimizers are a set of procedures defined in SciPy that either find the minimum value of a function, or the root of an equation?
+
+True    Your answer  
+False
+Question 5:
+When dealing with curves, what are the high points called?
+
+maxima    Your answer  
+slope
+top
+high
+Question 6:
+When dealing with curves, what are the low points called?
+
+minima    Your answer  
+low
+bottom
+U
+Question 7:
+When dealing with curves, what are the highest point in the whole curve called?
+
+global maxima    Your answer  
+maxima
+maximo dutti
+Question 8:
+Which explanation is correct for 'Sparse Data'?
+
+A data set where most of the item values are zero.    Your answer  
+A data set where all numbers are higher than the previous number.
+A data set with only negative values
+Question 9:
+What do we call an array where the content is the opposite of 'Sparse Data'?
+
+Dense Array    Your answer  
+Full Array
+Lower Data
+Question 10:
+Which explanation is correct for a 'Dense Array'?
+
+Most of the values are not zero.    Your answer  
+The values are all positive
+The values are sorted ascending
+Question 11:
+What is a correct syntax to return the number of 'not zero' values in an array?
+
+count_nonzeros()    Your answer  
+nozeros()
+no_zeros()
+nonzeros()
+Question 12:
+When working with the csgraph modul, what is a correct method to find all connected components in a matrix?
+
+connected_components()    Your answer  
+comp_connections()
+connections()
+Question 13:
+When working with the csgraph modul, what is a correct method to find the shortest path in a graph from one element to another?
+
+dijkstra()    Your answer  
+ford()
+bellmann()
+Question 14:
+One of these methods is used when working with triangulation, which one?
+
+Delaunay()    Your answer  
+Dmitri()
+Duval()
+Question 15:
+Which explanation is correct for a 'convex hull'?
+
+A convex hull is the smallest polygon that covers all of the given points.    Your answer  
+A convex hull is the smallest square that covers four given points.
+A convex hull is the smallest triangle that covers all of the given points.
+Question 16:
+What is a correct method for exporting values in Matlab format?
+
+savemat()    Your answer  
+to_matlab()
+save_to_mat()
+Question 17:
+There is a method in the spatial data module that is also known as 'Manhattan Distance', which one?
+
+cityblock()    Your answer  
+block_distance()
+blocks()
+Question 18:
+Which of the following methods is used when importing data from a Matlab format?
+
+loadmat()    Your answer  
+matlab()
+matlab.get()
+Question 19:
+When we are missing some data point, we often use interpolation to substitute the missing values, what is this technique called?
+
+imputation    Your answer  
+adoptation
+amputation
+Question 20:
+When working with significantance testing, the 'Alpha value' is best described as:
+
+The level of significance.    Your answer  
+The distance from the lowest to the highest number
+The highest possible number.
+Question 21:
+When running a Normality Test, what does a negative skew mean?
+
+The data is skewed left    Your answer  
+None of the other two answers are correct
+The data is skewed right
+Question 22:
+When running a Normality Test, what would be the skew value of a 'normal data distribution'?
+
+0    Your answer  
+-1
+1
+Question 23:
+When working with constanst, what would be the result of the following:
+
+constants.kilo
+
+1000.0    Your answer  
+10.0
+100.0
+1.0
+Question 24:
+When working with constanst, what would be the result of the following:
+
+constants.gram
+
+0.001    Your answer  
+0.01
+0.1
+Question 25:
+When working with constanst, what would be the result of the following:
+
+constants.hour
+
+3600.0    Your answer  
+24.0
+1.0
