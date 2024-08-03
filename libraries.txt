@@ -1,0 +1,13 @@
+#Installation of required softwares for note taking desktop application
+
+#Firstly installed python
+pip install python
+
+#Secondly installed pymysql 
+#apart from downloading mySQlL8.0.38 sql software to set up integration of application with database and worked on mySQL workbench
+#using https://dev.mysql.com/downloads/installer/
+
+pip install pymysql
+
+# 3rd party module for visualization - matplotlib
+pip install matplotlib
